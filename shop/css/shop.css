@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Vaani');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+body {
+  min-width: 1336px; /* Necessary evil */
+  background-color: #E8EAF6;
+  font-family: 'Mukta Vaani', sans-serif;
+}
+
+a,
+a:hover,
+a:visited {
+  color: #303F9F;
+  text-decoration: none;
+}
+
+
+
+
+/* NAVBAR STYLES */
+header {
+  height: 80px;
+  width: 100%;
+  background-color: #3F51B5;
+  color: #E8EAF6;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: fixed;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+/* Navbar 1: Logo */
+#logo {
+  float: left;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Navbar 2: Categories */
+#categories-menu {
+  float: left;
+  margin-left: 40px;
+}
+
+#categories-menu li {
+  display: inline;
+  list-style-type: none;
+  float: left;
+  font-size: 25px;
+  margin: 20px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+#categories-menu li:hover {
+  color: white;
+  margin-top: 22px;
+  transform: margin-top;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+#categories-menu a {
+  color: inherit;
+}
+
+/* Navbar 3: Cart*/
+#cart {
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#cart span {
+  color: #E8EAF6;
+  font-size: 36px;
+}
+
+
+/* Navbar 4: Login*/
+#login-menu, #info-user {
+  margin-top: 30px;
+  margin-right: 10px;
+  font-size: 20px;
+  float: right;
+}
+
+#info-user {
+  font-size: 10px;
+}
+
+#info-user p {
+  display: block;
+}
+
+#info-user a {
+  margin-left: 30px;
+  color: #ddeaf6;
+}
+
+#login-menu a {
+  color: inherit;
+}
+
+
+/* Search section */
+#search-bar {
+  float: left;
+  width: 100%;
+  margin-top: 100px;
+  padding-right: 240px;
+  padding-left: 240px;
+}
+
+#search input {
+  padding: 24px;
+  padding-left: 36px;
+  width: 100%;
+  height: 36px;
+  font-size: 36px;
+  text-align: center;
+}
+
+
+
+/* CONTENT STYLES */
+section#content {
+  width: 100%;
+  float: left;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-left: 95px;
+}
+
+.sticker {
+  background-color: white;
+  color: #7986CB;
+  float: left;
+  margin: 20px;
+  padding: 10px;
+  width: 240px;
+  height: 240px;
+  cursor: pointer;
+}
+
+.sticker img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 200px;
+  max-width: 200px;
+}
+
+.sticker span {
+  margin-top: 10px;
+}
+
+.sticker .title {
+  float: left;
+  font-size: 16px;
+}
+
+.sticker .price,
+.add-to-cart {
+  color: #3F51B5;
+  font-weight: bold;
+  float: right;
+}
+
+.add-to-cart {
+  margin-right: 12px;
+}
+
+
+
+
+/* BOTTOM OF THE PAGE */
+footer {
+  height: 160px;
+  width: 100%;
+  margin-top: 40px;
+  background-color: #212121;
+  float: left;
+}
+
+footer #comments {
+  width: 100%;
+  padding: 120px;
+  padding-top: 12px;
+  padding-bottom: 0;
+  color: #E8EAF6;
+}
+
+footer textarea {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 12px;
+}
+
+footer a,
+footer a:hover,
+footer a:visited {
+  float: left;
+  color: #E8EAF6;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  border: 2px solid #E8EAF6;
+}

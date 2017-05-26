@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Vaani');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+body {
+  min-width: 600px; /* Necessary evil */
+  background-color: #E8EAF6;
+  font-family: 'Mukta Vaani', sans-serif;
+}
+
+a,
+a:hover,
+a:visited {
+  color: #303F9F;
+  text-decoration: none;
+}
+
+h1 {
+  color: #3F51B5;
+  text-align: center;
+  margin-top: 12px;
+}
+
+section#content {
+  width: 100%;
+  float: left;
+  padding: 30px;
+}
+
+.sticker {
+  width: 100%;
+  background-color: white;
+  color: #7986CB;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  height: 80px;
+}
+
+.sticker img {
+  float: left;
+  display: block;
+  height: 60px;
+  max-width: 60px;
+  margin-right: 12px;
+}
+
+.sticker span {
+  font-size: 16px;
+  margin: 15px;
+}
+
+.sticker .title {
+  float: left;
+  margin: 14px;
+  font-size: 32px;
+}
+
+.sticker .price,
+.delete,
+.add-to-cart {
+  float: right;
+  color: #3F51B5;
+  font-weight: bold;
+}
+
+section#actions {
+  width: 100%;
+  float: left;
+  padding: 30px;
+}
+
+#buy {
+  float: left;
+  padding: 12px;
+  width: 100%;
+  border: 2px solid #3F51B5;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+#delCar {
+  margin-top: -50px;
+  float: left;
+  padding: 12px;
+  width: 100%;
+  border: 2px solid #3F51B5;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+#cerrar {
+  margin-top: -50px;
+  float: left;
+  padding: 12px;
+  width: 100%;
+  border: 2px solid #3F51B5;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.quantity {
+  display: block;
+}
+
+#prec {
+  margin-left: 35px;
+  color: #3F51B5;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#delUser {
+}

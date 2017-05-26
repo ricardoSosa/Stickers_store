@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sticker</title>
+  <link rel="stylesheet" href="css/add-sticker.css">
+</head>
+<body>
+  <h1>Agregar Sticker</h1>
+  <section id="content">
+    <div id="add-sticker-form">
+      <div>
+        <label>Imagen: </label>
+        <input id="inputImage" type="file">
+      </div>
+      <div>
+        <label>Título: </label>
+        <input id="inputTitle" type="text">
+      </div>
+      <div>
+        Categoría: 
+        <select id="inputCategory">
+          <option value="technology">Tecnología</option>
+          <option value="comics-manga">Comics y manga</option>
+          <option value="movies">Películas</option>
+          <option value="others">Otros</option>
+        </select>
+      </div>
+      <div>
+        <label>Descripción: </label>
+        <textarea id="textDescription" ></textarea>
+      </div>
+      <div>
+        <label>Precio: $</label>
+        <input id="inputPrice" type="text" value=0>
+      </div>
+      <div>
+        <label>Cantidad de unidades: </label>
+        <input id="inputUnits" type="text">
+      </div>
+      <div id="send">
+        <a href="#">Agregar</a>
+      </div>
+      <div id="evalMsg">
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/add-sticker.js"></script>
+</body>
+</html>
